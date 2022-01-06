@@ -1,4 +1,4 @@
-package xyz.bumbing;
+package xyz.bumbing.annotation;
 
 
 import org.junit.jupiter.api.Tag;
@@ -13,5 +13,5 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 @Test
 @Tag("fast")
-public @interface FastTest {
+public @interface SlowTest {
 }
